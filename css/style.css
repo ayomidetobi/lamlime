@@ -1,0 +1,175 @@
+.logo{
+    width: 200px;
+    height: 40px;
+}
+.logo2{
+    width: 300px;
+    height: 80px;
+}
+.m-r{
+    margin-left: 800px;
+}
+.hr-style{
+    width: 100%;
+    height: 2px;
+    border: none;
+    color: #8380A6;
+
+    ;
+}
+.iconss{
+    width: 20px;
+    height: 20px;
+}
+.m-color{
+    color: #101299;
+
+}
+.bg-m-color{
+    background: #101299;
+    color: #fff;
+
+}
+.d-color{
+    color: #1E1E1E;
+
+}
+.bg-d-color{
+    background: #1E1E1E;
+
+}
+a, a:link, a:visited{
+    color: #1E1E1E !important;
+}
+
+a:active, a:hover{
+    color: #101299 !important;
+    border-bottom-style:3px solid #101299 !important;
+}
+a.active{
+    color: #101299 !important;
+    border-bottom:3px solid #101299 !important;
+}
+.line-hg{
+    line-height: 120%;
+}
+.con{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.heroimg{
+    width: auto;
+    height: auto;
+}
+button{
+    height: 70px;
+    border-radius: 15px !important;
+    padding: 20px;
+    width: 235px;
+}
+button.invert{
+    border: 2px solid #101299;
+    background-color: #fff;
+    color:black;
+}
+.nig{
+
+    margin-left: -60px;
+    
+}
+.align-center{
+    text-align: center;
+}
+.tos{
+    
+}
+
+
+
+.fancy-undeline {
+        background-image: linear-gradient(120deg, #101299,#6dd5ed 100%);
+        background-repeat: no-repeat;
+        background-size: 45% 0.5em;
+        background-position: center 70%;
+        transition: background-size 0.25s ease-in;
+ }
+
+.fancy-undeline:hover {
+        background-size: 45% 88% !important;
+      }
+.bord{
+    border: 1px solid #E6E6ED  ;
+    border-radius: 4px;
+}
+.bord:hover,.bord:visited
+{
+    border: 1px solid #101299 ;
+    border-radius: 4px;
+}
+.undraw{
+    width: auto;
+    height: 120px;
+}
+.mx-auto{
+    margin-right: auto;
+    margin-left: auto;
+}
+.col-width{
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.m-g{
+    margin-left: -50px;
+}
+.un{
+    width: auto;
+    height: 90px;
+}
+.roun{
+    border-radius: 50%;
+}
+.roun-img{
+    width: 100px;
+    height: 100px;
+}
+@media  (max-width: 768px) {
+
+    .contact-wrap{ 
+        padding: 0px 20px;
+    }
+
+     .heroimg{
+        display: none;
+    }
+
+    .project-wrap{
+        padding: 0px 15px;
+    }
+
+    .team-wrap{
+        max-width: 100%;
+    }
+    .m-g{
+        margin-left:0;
+        
+    }
+    .m-l-25{
+        margin-left:-25px;
+        
+    }
+    .fancy-undeline {
+        background-image: linear-gradient(120deg, #101299,#6dd5ed 100%);
+        background-repeat: no-repeat;
+        background-size: 70% 0.5em;
+        background-position: center 70%;
+        transition: background-size 0.25s ease-in;
+ }
+
+.fancy-undeline:hover {
+        background-size: 80% 88% !important;
+      }
+    
+}
+
